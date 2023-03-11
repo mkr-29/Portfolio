@@ -1,0 +1,47 @@
+.landing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landing-inner{
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    margin-left: 2rem;
+}
+.landing-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.introduction{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+.introduction span{
+    color: #FF4F4F;
+    font-family: 'Gemunu Libre';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+}
+.landing-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 48%;
+    position: relative;
+}
+.mayank{
+    width: 100%;
+}
+.socials-landing{
+    position: absolute;
+    top: 25rem;
+    right: -3rem;
+}
