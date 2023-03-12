@@ -1,0 +1,26 @@
+.myworks{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.myworks-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+.myworks-heading{
+    font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+}
+.myworks-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
