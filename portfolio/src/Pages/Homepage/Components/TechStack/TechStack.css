@@ -1,0 +1,18 @@
+.tech-stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tech-stack-inner{
+    width: 90vw;
+}
+.tech-stack-heading{
+    font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color: white;
+}
+.mts-carousel{
+    height: 55vh;
+}
