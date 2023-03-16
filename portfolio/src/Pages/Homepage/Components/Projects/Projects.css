@@ -1,0 +1,17 @@
+.projs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.proj-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+.proj-head{
+    font-family: 'Black Ops One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    color:  white;
+}

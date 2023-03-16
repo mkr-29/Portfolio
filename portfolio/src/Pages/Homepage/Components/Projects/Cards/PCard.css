@@ -1,0 +1,9 @@
+.p-card-img{
+    width: 95%;
+}
+.p-card-title{
+    margin-top: 1rem;
+}
+.p-card-title a{
+    font-size: 2rem !important;
+}
