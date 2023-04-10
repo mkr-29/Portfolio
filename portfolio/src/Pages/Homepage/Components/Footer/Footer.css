@@ -12,3 +12,52 @@
     left: 2rem;
     top: 0;
 }
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+    gap: 5rem;
+}
+.footer-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-up div{
+    display: flex;
+    gap: 2rem;
+}
+.footer-up div a{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.footer-up div a:hover{
+    color: #ff3b3b;
+}
+.footer-up span{
+    background-color: #FF4F4F;
+    width: 2.5px;
+}
+.footer-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 2rem;
+}
+.footer-down h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+}
+.footer-down p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}

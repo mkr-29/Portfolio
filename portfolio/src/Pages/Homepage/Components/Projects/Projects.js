@@ -4,7 +4,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div className="projs">
+    <div className="projs" id="projects">
       <div className="proj-inner">
         <h1 className="proj-head">My Projects</h1>
         <PSlider/>
