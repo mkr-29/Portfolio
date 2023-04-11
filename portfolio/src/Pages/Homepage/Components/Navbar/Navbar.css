@@ -49,21 +49,20 @@
   font-size: 24px;
   cursor: pointer;
 }
-.nav-items ul li a:hover::after {
+/* .nav-items ul li a:hover::after {
   width: 100%;
-}
+} */
 .nav-items ul li a:hover {
   color: #fff;
-  /* font-weight: 500; */
 }
-.nav-items ul li a::after {
+/* .nav-items ul li a::after {
   content: "";
   display: block;
   width: 0;
   height: 2px;
   background: rgb(255, 255, 255);
   transition: 0.3s;
-}
+} */
 .header-nav-lines,
 .header-nav-line {
   display: none;

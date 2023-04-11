@@ -66,16 +66,19 @@ export default function Navbar() {
                 About
               </LNK>
             </li>
-            <LNK
-              className={header ? "nav-links active" : "nav-links"}
-              to="projects"
-              spy={true}
-              smooth={true}
-              offset={-100}
-              duration={1000}
-            >
-              Projects
-            </LNK>
+            
+            <li>
+              <LNK
+                className={header ? "nav-links active" : "nav-links"}
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={1000}
+              >
+                Projects
+              </LNK>
+            </li>
 
             <li>
               <LNK

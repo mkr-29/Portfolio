@@ -2,6 +2,8 @@ import React from "react";
 import "./Landing.css";
 import MK from "./Assets/mayank.png";
 import Socials from "../Socials/Socials";
+import { Link as LNK } from "react-scroll";
+
 
 export default function Landing() {
   return (
@@ -12,6 +14,15 @@ export default function Landing() {
             I’m <span>Mayank Kumar</span>,<br/> a Front End Web Developer and
             designer<br/> and a Student.
           </span>
+          <LNK
+                to="contacts"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >
+                Contact Me
+              </LNK>
         </div>
         <div className="landing-right">
             <div className="socials-landing">
