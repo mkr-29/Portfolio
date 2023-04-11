@@ -22,3 +22,18 @@
 .socials ul li a img{
     width: 2rem;
 }
+.socials ul li a img:hover{
+    animation: socials 0.5s ease-in-out;
+    filter: invert(1);
+}
+@keyframes socials{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

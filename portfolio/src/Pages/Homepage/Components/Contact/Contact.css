@@ -46,10 +46,16 @@
     border: none;
     color: white;
 }
+.contact-form input:hover{
+    background: #FF4F4F33;
+}
 .contact-form textarea{
     width: 40rem;
     height: 10rem;
     resize: none;
+}
+.contact-form textarea:hover{
+    background: #FF4F4F33;
 }
 .contact-form button{
     background: #BA2727;
@@ -60,4 +66,8 @@
     padding: 0.3rem;
     border: none;
     color: white;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background: #FF4F4F;
 }

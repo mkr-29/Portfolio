@@ -34,6 +34,7 @@
     font-size: 18px;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 .footer-up div a:hover{
     color: #ff3b3b;

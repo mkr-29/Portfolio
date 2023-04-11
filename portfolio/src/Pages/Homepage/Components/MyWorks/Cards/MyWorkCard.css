@@ -11,6 +11,12 @@
     padding: 2rem;
     gap: 1rem;
 }
+.myworks-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #4d4d4d;
+    /* background-color: #FF4F4F; */
+}
 .myworks-card img{
     width: 7rem;
 }

@@ -10,10 +10,10 @@ export default function Socials() {
     <div className='socials'>
         <span/>
         <ul>
-            <li><a href="https://twitter.com/mayankkumar_"><img src={Twitter} alt="Twitter" /></a></li>
-            <li><a href="https://www.linkedin.com/in/mayank-kumar-0b1b1b1b1/"><img src={Linkedin} alt="Linkedin" /></a></li>
-            <li><a href="https://www.instagram.com/mayankkumar_/" ><img src={Instagram} alt="Instagram" /></a></li>
-            <li><a href="/" ><img src={Github} alt="Github" /></a></li>
+            <li><a href="https://twitter.com/4n0nym0u5_29"><img src={Twitter} alt="Twitter" /></a></li>
+            <li><a href="https://www.linkedin.com/in/mayank-kumar-375600214"><img src={Linkedin} alt="Linkedin" /></a></li>
+            <li><a href="https://www.instagram.com/racinmk/" ><img src={Instagram} alt="Instagram" /></a></li>
+            <li><a href="https://github.com/mkr-29" ><img src={Github} alt="Github" /></a></li>
         </ul>
     </div>
   )

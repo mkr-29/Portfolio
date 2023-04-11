@@ -10,6 +10,10 @@
     justify-content: center;
     margin: auto;
 }
+.mts-card:hover{
+    background: #FF4F4F;
+    box-shadow: 6.45832px 6.45832px 23.0654px rgba(0, 0, 0, 0.5);
+}
 .mts-card-img{
     width: 7rem;
     height: 7rem;

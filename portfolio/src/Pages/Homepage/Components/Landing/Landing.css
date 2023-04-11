@@ -32,6 +32,10 @@
     width: 180px;
     justify-content: center;
 }
+.landing-left a:hover{
+    background-color: #FF4F4F;
+    color: white;
+}
 .introduction{
     font-family: 'Montserrat';
     font-style: normal;
