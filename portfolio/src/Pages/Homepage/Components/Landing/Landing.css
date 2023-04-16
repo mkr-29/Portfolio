@@ -65,3 +65,84 @@
     top: 20rem;
     right: -3rem;
 }
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .landing-inner{
+        flex-direction: column-reverse;   
+    }
+    .landing-left{
+        width: 100%;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .socials-landing{
+        top: 10rem;
+        right: 0rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .landing-inner{
+        flex-direction: column-reverse;   
+    }
+    .landing-left{
+        width: 100%;
+    }
+    .landing-right{
+        width: 100%;
+    }
+    .socials-landing{
+        top: 10rem;
+        right: 0rem;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .socials-landing{
+        top: 50rem;
+        right: -1.5rem;
+    }
+    .introduction{
+        font-size: 36px;
+    }
+    .introduction span{
+        font-size: 90px;
+    }
+    .landing-left a{
+        font-size: 32px;
+        width: 220px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+    .socials-landing{
+        top: 48rem;
+        right: -3.4rem;
+    }
+    .myworks{
+        height: 100%;
+        padding-bottom: 2rem;
+    }
+    .introduction{
+        font-size: 40px;
+    }
+    .introduction span{
+        font-size: 100px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .socials-landing {
+        top: 49rem;
+        right: -8.9rem;
+    }
+    .introduction{
+        font-size: 50px;
+    }
+    .introduction span{
+        font-size: 112px;
+    }
+    .landing-left a{
+        font-size: 52px;
+        width: 340px;
+    }
+    .scroll-to-top{
+        right: 0.7rem;
+    }
+}

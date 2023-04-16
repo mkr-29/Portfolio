@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     padding: 3rem 10rem;
-    gap: 5rem;
+    gap: 12rem;
 }
 .footer-up{
     display: flex;
@@ -31,7 +31,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 30px;
     color: white;
     text-decoration: none;
     cursor: pointer;
@@ -54,11 +54,106 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 50px;
 }
 .footer-down p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .footer-up div{
+        flex-direction: column;
+    }
+    .footer-up span{
+        width: 2rem;
+        height: 2px;
+    }
+    .footer-inner{
+        padding: 3rem 2rem;
+    }
+    .footer-up{
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer{
+        height: 100%;
+    }
+    .footer-socials {
+        left: 3rem;
+        top: 14rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .footer-up div{
+        flex-direction: column;
+    }
+    .footer-up span{
+        width: 2rem;
+        height: 2px;
+    }
+    .footer-inner{
+        padding: 3rem 2rem;
+    }
+    .footer-socials{
+        top: 10rem;
+        left: 5rem;
+    }
+    .footer-up{
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .footer-up img{
+        width: 5rem;
+    }
+    .footer-inner{
+        padding: 3rem 3rem;
+        gap: 10rem;
+    }
+    .footer-socials{
+        top: 8rem;
+        left: 4rem;
+    }
+    .footer-up div a{
+        font-size: 22px;
+    }
+    .footer-up div{
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2056px){
+    .footer-inner{
+        padding: 3rem 6rem;
+        gap: 12rem;
+    }
+    .footer-up div a{
+        font-size: 30px;
+    }
+    .footer-down h3{
+        font-size: 50px;
+    }
+    .footer-down p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 2560px){
+    .footer-up img{
+        width: 10rem;
+    }
+    .footer-up div a{
+        font-size: 32px;
+    }
+    .footer-down h3{
+        font-size: 60px;
+    }
+    .footer-down p{
+        font-size: 26px;
+    }
 }

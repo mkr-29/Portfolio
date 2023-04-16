@@ -39,3 +39,64 @@
     font-size: 20px;
     color: white;
 }
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .myworks-card{
+        width: 30vw;
+        height: calc(26vw * 0.8s);
+    }
+    .myworks-card img {
+        width: 5rem;
+    }
+    .myworks-card-heading{
+        font-size: 28px;
+    }
+    .myworks-card-content{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .myworks-card{
+        width: 30vw;
+        height: calc(26vw * 0.8s);
+    }
+    .myworks-card img {
+        width: 5rem;
+    }
+    .myworks-card-heading{
+        font-size: 28px;
+    }
+    .myworks-card-content{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .myworks-card{
+        width: 30vw;
+    }
+    .myworks-card img {
+        width: 8rem;
+    }
+    .myworks-card-heading{
+        font-size: 32px;
+    }
+    .myworks-card-content{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .myworks-heading{
+        font-size: 112px;
+    }
+    .myworks-card img {
+        width: 10rem;
+    }
+    .myworks-card-heading{
+        font-size: 40px;
+    }
+    .myworks-card-content{
+        font-size: 30px;
+    }
+    .myworks-card{
+        height: 100%;
+    }
+}

@@ -71,3 +71,85 @@
 .contact-form button:hover{
     background: #FF4F4F;
 }
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .contact-inner h1{
+        font-size: 40px;
+    }
+    .contact-form label{
+        font-size: 32px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 22px;
+        width: 97%;
+        border-radius: 5px;
+    }
+    .contact-form{
+        border-radius: 16px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .contact-inner h1{
+        font-size: 50px;
+    }
+    .contact-form label{
+        font-size: 32px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 22px;
+        width: 97%;
+        border-radius: 5px;
+    }
+    .contact-form{
+        border-radius: 16px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .contact-inner h1{
+        font-size: 58px;
+        margin-bottom: 1rem;
+    }
+    .contact-form label{
+        font-size: 32px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 26px;
+        width: 100%;
+    }
+    .contact-form{
+        border-radius: 12px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+    .contact-inner h1{
+        font-size: 62px;
+    }
+    .contact-form label{
+        font-size: 36px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 28px;
+        width: 56rem;
+    }
+    .contact-form button{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .contact-inner h1{
+        font-size: 112px;
+    }
+    .contact-form label{
+        font-size: 50px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 40px;
+        width: 62rem;
+    }
+    .contact-form button{
+        font-size: 3rem;
+    }    
+}

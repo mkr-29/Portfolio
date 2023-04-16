@@ -18,6 +18,22 @@ export default function PSlider() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
     nextArrow: <img src={RightBtn} alt="next" className="mts-next-btn" />,
     prevArrow: <img src={LeftBtn} alt="prev" className="mts-prev-btn" />,
     autoplay: true,

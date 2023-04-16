@@ -37,6 +37,22 @@ export default function SimpleSlider() {
     nextArrow: <img src={RightBtn} alt="next" className="mts-next-btn" />,
     prevArrow: <img src={LeftBtn} alt="prev" className="mts-prev-btn" />,
     autoplay: true,
+    responsive: [
+      {
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+    ]
   };
   return (
     <Slider {...settings}>
