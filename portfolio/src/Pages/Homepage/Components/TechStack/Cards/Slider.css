@@ -20,3 +20,13 @@
     width: 100%;
     padding: 2rem 0;
 }
+@media screen and (max-width: 425px){
+    .slick-prev{
+        left: 2rem;
+        width: 2rem;
+    }
+    .slick-next{
+        right: 2rem;
+        width: 2rem;
+    }
+}

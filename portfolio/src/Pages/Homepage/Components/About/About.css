@@ -34,6 +34,26 @@
   margin-top: 1rem;
 }
 
+@media screen and (max-width: 425px){
+  .about{
+    height: 100%;
+  }
+  .about-heading{
+    font-size: 40px;
+  }
+  .about-heading{
+    font-size: 40px;
+  }
+  .about-text{
+    font-size: 20px;
+  }
+  .about-line{
+    display: none;
+  }
+  .about-txt{
+    font-size: 14px;
+  }
+}
 @media screen and (min-width: 425px) and (max-width: 768px){
   .about-heading{
     font-size: 40px;

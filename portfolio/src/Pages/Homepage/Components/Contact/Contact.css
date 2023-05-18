@@ -71,6 +71,29 @@
 .contact-form button:hover{
     background: #FF4F4F;
 }
+@media screen and (max-width: 425px){
+    .contact-inner h1{
+        font-size: 40px;
+    }
+    .contact-form label{
+        font-size: 24px;
+    }
+    .contact-form input, .contact-form textarea{
+        font-size: 22px;
+        width: 97%;
+        border-radius: 5px;
+    }
+    .contact-form{
+        border-radius: 16px;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .contact-form button{
+        font-size: 1.5rem;
+        width: 100%;
+        border-radius: 5px;
+    }
+}
 @media screen and (min-width: 425px) and (max-width: 768px){
     .contact-inner h1{
         font-size: 40px;

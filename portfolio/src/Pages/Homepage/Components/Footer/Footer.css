@@ -63,6 +63,41 @@
     font-size: 20px;
 }
 
+@media screen and (max-width: 425px){
+    .footer-up div{
+        flex-direction: column;
+    }
+    .footer-up span{
+        width: 2rem;
+        height: 2px;
+    }
+    .footer-inner{
+        padding: 3rem 1rem;
+    }
+    .footer-socials {
+        left: 3rem;
+        top: 8rem;
+    }
+    .footer-up{
+        align-items: flex-start;
+        padding: 0 2rem;
+    }
+    .footer{
+        height: 100%;
+        width: 100%;
+    }
+    .footer-logo{
+        width: 3rem;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-down h3{
+        font-size: 30px;
+    }
+    .footer-down p{
+        font-size: 15px;
+    }
+}
 @media screen and (min-width: 425px) and (max-width: 768px){
     .footer-up div{
         flex-direction: column;

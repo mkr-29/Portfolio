@@ -32,6 +32,25 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (max-width: 425px){
+  .mts-card {
+    width: 70vw;
+    height: calc(80vw * 0.8);
+  }
+  .mts-card-img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .mts-card-title a {
+    font-size: 28px;
+  }
+  .slick-prev {
+    left: -1rem;
+  }
+  .slick-next {
+    right: -1rem;
+  }
+}
 @media screen and (min-width: 425px) and (max-width: 768px){
   .mts-card {
     width: 26vw;

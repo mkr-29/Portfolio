@@ -39,6 +39,21 @@
     font-size: 20px;
     color: white;
 }
+@media screen and (max-width: 425px){
+    .myworks-card{
+        width: 80vw;
+        height: calc(80vw * 0.8s);
+    }
+    .myworks-card img {
+        width: 5rem;
+    }
+    .myworks-card-heading{
+        font-size: 28px;
+    }
+    .myworks-card-content{
+        font-size: 16px;
+    }
+}
 @media screen and (min-width: 425px) and (max-width: 768px){
     .myworks-card{
         width: 30vw;

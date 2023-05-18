@@ -141,6 +141,7 @@
   .header-wrapper.active .menu {
     position: relative;
     transition: all 400ms ease;
+    z-index: 9999;
   }
 }
 
