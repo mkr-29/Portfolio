@@ -64,7 +64,7 @@ export default function Navbar() {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-30}
+                offset={-70}
                 duration={1000}
                 onClick={() => {
                   setIsOpen1(false);
