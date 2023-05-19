@@ -1,23 +1,74 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
+import { db } from "../Firebase/FirebaseConfig";
+import { collection, addDoc } from "firebase/firestore";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msgcontent, setMsgcontent] = useState("");
+
+  const userCollectionRef = collection(db, "contactData");
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevent form submission and page refresh
+
+    // Validate form inputs
+    if (!name || !email || !msgcontent) {
+      alert("Please fill in all the details.");
+      return;
+    }
+
+    // Add document to Firestore
+    addDoc(userCollectionRef, {
+      name: name,
+      email: email,
+      msgcontent: msgcontent
+    })
+      .then(() => {
+        alert("Message sent successfully!");
+        setName(""); // Clear form inputs after successful submission
+        setEmail("");
+        setMsgcontent("");
+      })
+      .catch((error) => {
+        alert(error.message);
+      });
+  };
+
   return (
     <div className="contact" id="contacts">
       <div className="contact-inner">
         <h1>Contact Me</h1>
-        <form className="contact-form">
+        <form onSubmit={handleSubmit} className="contact-form">
           <div>
             <label>Name</label>
-            <input type="text" placeholder="Name" />
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              value={name}
+              onChange={(event) => setName(event.target.value)}
+            />
           </div>
           <div>
             <label>Email</label>
-            <input type="email" placeholder="Email" />
+            <input
+              type="email"
+              id="email"
+              placeholder="Email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+            />
           </div>
           <div>
             <label>Message</label>
-            <textarea placeholder="Message"></textarea>
+            <textarea
+              id="msgcontent"
+              placeholder="Message"
+              value={msgcontent}
+              onChange={(event) => setMsgcontent(event.target.value)}
+            ></textarea>
           </div>
           <button type="submit">Submit</button>
         </form>

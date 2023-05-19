@@ -22,12 +22,6 @@ export default function MyWorks() {
                     heading="Web Development"
                     content="I have about three years of experience in front end web development till now and I am always expanding."
                 />
-                <MyWorkCard
-                    img={WebDevelopment}
-                    alt="Web Development"
-                    heading="Web Development"
-                    content="I have about three years of experience in front end web development till now and I am always expanding."
-                />
             </div>
         </div>
     </div>
