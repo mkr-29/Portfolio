@@ -11,15 +11,13 @@ export default function Contact() {
   const userCollectionRef = collection(db, "contactData");
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent form submission and page refresh
+    event.preventDefault();
 
-    // Validate form inputs
     if (!name || !email || !msgcontent) {
       alert("Please fill in all the details.");
       return;
     }
 
-    // Add document to Firestore
     addDoc(userCollectionRef, {
       name: name,
       email: email,
@@ -27,7 +25,7 @@ export default function Contact() {
     })
       .then(() => {
         alert("Message sent successfully!");
-        setName(""); // Clear form inputs after successful submission
+        setName("");
         setEmail("");
         setMsgcontent("");
       })
@@ -70,7 +68,7 @@ export default function Contact() {
               onChange={(event) => setMsgcontent(event.target.value)}
             ></textarea>
           </div>
-          <button type="submit">Submit</button>
+          <button onClick={handleSubmit} type="submit">Submit</button>
         </form>
       </div>
     </div>
