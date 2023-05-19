@@ -3,7 +3,7 @@
     box-shadow: -7px -7px 30px rgba(126, 126, 126, 0.25);
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 100%;
     margin-top: 8rem;
 }
 .footer-socials{
@@ -167,6 +167,7 @@
     .footer-inner{
         padding: 3rem 6rem;
         gap: 12rem;
+        /* height: 100%; */
     }
     .footer-up div a{
         font-size: 30px;

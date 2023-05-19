@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 4rem;
-  height: 100vh;
+  height: 100%;
 }
 .about-heading {
   font-family: "Black Ops One";
@@ -89,7 +89,7 @@
     font-size: 60px;
   }
   .about-text{
-    font-size: 34px;
+    font-size: 28px;
   }
 }
 @media screen and (min-width: 2560px) {
