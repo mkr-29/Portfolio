@@ -47,7 +47,11 @@ export default function Navbar() {
             <li>
               <Link
                 className={header ? "nav-links active" : "nav-links"}
-                onClick={() => scroll.scrollToTop()}
+                onClick={() => {
+                  scroll.scrollToTop();
+                  setIsOpen1(false);
+                  setOpen(false);
+                }}
                 to="/"
               >
                 Home
@@ -62,6 +66,10 @@ export default function Navbar() {
                 smooth={true}
                 offset={-30}
                 duration={1000}
+                onClick={() => {
+                  setIsOpen1(false);
+                  setOpen(false);
+                }}
               >
                 About
               </LNK>
@@ -75,6 +83,10 @@ export default function Navbar() {
                 smooth={true}
                 offset={-100}
                 duration={1000}
+                onClick={() => {
+                  setIsOpen1(false);
+                  setOpen(false);
+                }}
               >
                 Projects
               </LNK>
@@ -88,6 +100,10 @@ export default function Navbar() {
                 smooth={true}
                 offset={-70}
                 duration={1000}
+                onClick={() => {
+                  setIsOpen1(false);
+                  setOpen(false);
+                }}
               >
                 Contacts
               </LNK>

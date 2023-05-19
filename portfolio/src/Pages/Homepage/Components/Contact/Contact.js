@@ -11,7 +11,7 @@ export default function Contact() {
   const userCollectionRef = collection(db, "contactData");
 
   const handleSubmit = (event) => {
-    event.preventDefault();
+    event.preventDefault(); // Prevent form submission and page refresh
 
     if (!name || !email || !msgcontent) {
       alert("Please fill in all the details.");
@@ -68,7 +68,7 @@ export default function Contact() {
               onChange={(event) => setMsgcontent(event.target.value)}
             ></textarea>
           </div>
-          <button onClick={handleSubmit} type="submit">Submit</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </div>
